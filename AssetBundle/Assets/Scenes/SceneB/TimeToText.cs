@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using AssetBundles;
+using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
@@ -13,6 +14,7 @@ public class TimeToText : MonoBehaviour
 
     void Start()
     {
+        AssetBundleManager.UnloadAssetBundle("scene_b");
         _text.text = string.Format("{0}[ms]\nAllocated Memory:{1}", StopWatch.Stop(), Profiler.GetTotalAllocatedMemory());
     }
 }
