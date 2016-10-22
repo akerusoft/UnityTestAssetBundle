@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2346180131
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 56910d4a3ccca76144babda19a30c4a3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Images/ja/portrait1.png
+- Assets/Images/ja/portrait2.png
+- Assets/Images/ja/portrait3.png
+- Assets/Images/ja/portrait6.png
+- Assets/Images/ja/portrait5.png
+- Assets/Images/ja/portrait4.png
+Dependencies: []

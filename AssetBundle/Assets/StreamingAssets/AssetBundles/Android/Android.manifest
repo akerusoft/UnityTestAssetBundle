@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 1261579215
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: res.ja
+      Dependencies: {}
+    Info_1:
+      Name: res.en
+      Dependencies: {}
+    Info_2:
+      Name: scene_b
+      Dependencies:
+        Dependency_0: res.ja
